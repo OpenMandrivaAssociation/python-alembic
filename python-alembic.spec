@@ -1,5 +1,5 @@
 Name:		python-alembic
-Version:	1.19.2
+Version:	1.20.0
 Release:	1
 Summary:	Database migration tool for SQLAlchemy
 License:	MIT
@@ -9,7 +9,7 @@ Source0:	https://files.pythonhosted.org/packages/source/a/alembic/alembic-%{vers
 BuildArch:	noarch
 BuildSystem:	python
 BuildRequires:	python
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(sqlalchemy)
